@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+.space-grotesk-font {
+    font-family: "Space Grotesk", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+body{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(157deg, rgba(2,0,36,1) 0%, rgba(6,5,31,1) 14%, rgba(9,9,121,1) 54%, rgba(0,212,255,1) 93%);  
+    background-repeat: no-repeat; 
+    height: 100vh;  
+    overflow: hidden;
+    font-family: "Space Grotesk", serif;
+    font-weight: 900;
+    margin: 0;
+}
+
+header{
+    display: flex;
+}
+
+.container{
+    background-color: #1a1919;
+    padding: 1.5rem;
+    border-radius: 20px;
+    height: max-content;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap:2rem;
+}
+
+form #city-input{
+    border: none;
+    padding: 8px;
+    border-radius: 1rem;
+    font-family: "Space Grotesk", serif;
+}
+
+form #sub-btn{
+    border: none;
+    background-color: #1158b4;
+    color: white;
+    padding: 8px;
+    border-radius: 1rem;
+    font-family: "Space Grotesk", serif;
+    cursor: pointer;
+}
+
+.icon img{
+    margin: 5px;
+    height: 75px;
+    width: 75px;
+}
+
+.temperature{
+    font-size: 3rem;
+    margin: 5px;
+}
+
+.description{
+    font-size: 1.5rem;
+    margin: 5px;
+}
+
+.details{
+    display: flex;
+}
+
+.details > div{
+    flex:1;
+    min-height: 30px;
+    margin: 10px;
+}
